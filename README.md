@@ -29,7 +29,7 @@ This project is a full-stack task management system. Features include:
 
 **Frontend:**  
 - React.js  
-- Tailwind CSS (optional)  
+- Tailwind CSS  
 
 **Other Tools:**  
 - Git / GitHub  
@@ -46,24 +46,25 @@ This project is a full-stack task management system. Features include:
 ```bash
 git clone https://github.com/<your-username>/task-management-platform.git
 cd task-management-platform/server
-Create and activate a virtual environment
-
+```
+2. **Create and activate a virtual environment**
+```bash
 python -m venv venv
 # Windows
 venv\Scripts\activate
 # macOS/Linux
 source venv/bin/activate
+```
 
-
-Install dependencies
-
+3. **Install dependencies**
+```bash
 pip install -r requirements.txt
 
-
-Set up environment variables
+```
+4. **Set up environment variables**
 
 Create a .env file based on .env.example:
-
+```bash
 SECRET_KEY=your-django-secret-key
 DEBUG=True
 DB_NAME=your_db_name
@@ -71,22 +72,23 @@ DB_USER=your_db_user
 DB_PASSWORD=your_db_password
 DB_HOST=localhost
 DB_PORT=5432
+```
 
-
-Run migrations
-
+5. **Run migrations**
+```bash
 python manage.py makemigrations
 python manage.py migrate
+```
 
-
-Create superuser (optional)
-
+6. **Create superuser **
+```bash
 python manage.py createsuperuser
+```
 
-
-Run the development server
-
+7. **Run the development server**
+```bash
 python manage.py runserver
+```
 
 Frontend (React)
 
