@@ -90,24 +90,24 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-##Frontend (React)
+## Frontend (React)
 
-Navigate to the client folder
-
+1. **Navigate to the client folder**
+```bash
 cd ../client
+```
 
-
-Install dependencies
-
+2. **Install dependencies**
+```bash
 npm install
+```
 
-
-Run the frontend server
-
+3. **Run the frontend server**
+```bash
 npm start
-
-🌐 API Documentation
-
+```
+## API Documentation
+```bash
 The API is documented using drf-spectacular (Swagger & ReDoc).
 
 Swagger UI (interactive): http://127.0.0.1:8000/api/docs/swagger/
@@ -117,8 +117,9 @@ ReDoc UI: http://127.0.0.1:8000/api/docs/redoc/
 OpenAPI JSON schema: http://127.0.0.1:8000/api/schema/
 
 All endpoints, parameters, request/response formats, and authentication details are available here.
-
-🔧 Environment Variables
+```
+## Environment Variables
+```bash
 Variable	Description
 SECRET_KEY	Django secret key
 DEBUG	True for development, False for production
@@ -127,10 +128,10 @@ DB_USER	PostgreSQL user
 DB_PASSWORD	PostgreSQL password
 DB_HOST	Database host (default localhost)
 DB_PORT	Database port (default 5432)
-🚀 Deployment Links
-
+```
+## Deployment Links
 Frontend: https://task-management-platform.vercel.app
 
 Backend API: https://task-management-platform.onrender.com
 
-📸 Screenshots (Optional)
+## Screenshots 
