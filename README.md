@@ -80,7 +80,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-6. **Create superuser **
+6. **Create superuser**
 ```bash
 python manage.py createsuperuser
 ```
@@ -90,7 +90,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-Frontend (React)
+##Frontend (React)
 
 Navigate to the client folder
 
