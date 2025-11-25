@@ -140,6 +140,16 @@ Backend API: https://task-management-platform.onrender.com
 
 <img width="838" height="881" alt="image" src="https://github.com/user-attachments/assets/8b71cfdc-9612-4480-9419-6bfd3dfbf356" />
 
+<img width="1918" height="979" alt="image" src="https://github.com/user-attachments/assets/c2f1c738-1734-4c63-9915-0ec77d428df1" />
+
+<img width="1918" height="979" alt="image" src="https://github.com/user-attachments/assets/e3c26a6d-149d-4274-a1da-33401f800899" />
+
+<img width="1919" height="980" alt="image" src="https://github.com/user-attachments/assets/c2924049-86b7-49b4-b729-4c13330f72fb" />
+
+<img width="1919" height="982" alt="image" src="https://github.com/user-attachments/assets/f44a3670-1dec-4382-8497-3846fb2c20b9" />
+
+
+
 
 
 
