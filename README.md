@@ -46,3 +46,89 @@ This project is a full-stack task management system. Features include:
 ```bash
 git clone https://github.com/<your-username>/task-management-platform.git
 cd task-management-platform/server
+Create and activate a virtual environment
+
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+
+Install dependencies
+
+pip install -r requirements.txt
+
+
+Set up environment variables
+
+Create a .env file based on .env.example:
+
+SECRET_KEY=your-django-secret-key
+DEBUG=True
+DB_NAME=your_db_name
+DB_USER=your_db_user
+DB_PASSWORD=your_db_password
+DB_HOST=localhost
+DB_PORT=5432
+
+
+Run migrations
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+Create superuser (optional)
+
+python manage.py createsuperuser
+
+
+Run the development server
+
+python manage.py runserver
+
+Frontend (React)
+
+Navigate to the client folder
+
+cd ../client
+
+
+Install dependencies
+
+npm install
+
+
+Run the frontend server
+
+npm start
+
+🌐 API Documentation
+
+The API is documented using drf-spectacular (Swagger & ReDoc).
+
+Swagger UI (interactive): http://127.0.0.1:8000/api/docs/swagger/
+
+ReDoc UI: http://127.0.0.1:8000/api/docs/redoc/
+
+OpenAPI JSON schema: http://127.0.0.1:8000/api/schema/
+
+All endpoints, parameters, request/response formats, and authentication details are available here.
+
+🔧 Environment Variables
+Variable	Description
+SECRET_KEY	Django secret key
+DEBUG	True for development, False for production
+DB_NAME	PostgreSQL database name
+DB_USER	PostgreSQL user
+DB_PASSWORD	PostgreSQL password
+DB_HOST	Database host (default localhost)
+DB_PORT	Database port (default 5432)
+🚀 Deployment Links
+
+Frontend: https://task-management-platform.vercel.app
+
+Backend API: https://task-management-platform.onrender.com
+
+📸 Screenshots (Optional)
