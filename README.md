@@ -135,11 +135,11 @@ Frontend: https://task-management-platform.vercel.app
 Backend API: https://task-management-platform.onrender.com
 
 ## Screenshots 
-Login Page
+
 <img width="777" height="669" alt="image" src="https://github.com/user-attachments/assets/aa3e69ff-84ff-4f60-a269-a7e3806423d2" />
-Register Page
+
 <img width="838" height="881" alt="image" src="https://github.com/user-attachments/assets/8b71cfdc-9612-4480-9419-6bfd3dfbf356" />
-Add Task
+
 
 
 
