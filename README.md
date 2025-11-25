@@ -130,7 +130,7 @@ DB_HOST	Database host (default localhost)
 DB_PORT	Database port (default 5432)
 ```
 ## Deployment Links
-Frontend: https://task-management-platform.vercel.app
+Frontend: http://task-management-platform-puce.vercel.app/
 
 Backend API: https://task-management-platform.onrender.com
 
