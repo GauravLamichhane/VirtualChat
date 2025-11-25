@@ -132,7 +132,7 @@ DB_PORT	Database port (default 5432)
 ## Deployment Links
 Frontend: http://task-management-platform-puce.vercel.app/
 
-Backend API: https://task-management-platform.onrender.com
+Backend API: https://task-management-platform-0r6h.onrender.com
 
 ## Screenshots 
 
